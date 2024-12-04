@@ -1,12 +1,21 @@
 * {
-  background-color: #272727;
+  background-color: #bbbbbb;
+}
+
+#grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .div-container {
   display: flex;
-  border: solid;
+  justify-content: center;
+  gap: 10px;
 }
 
 .div {
-  border: solid;
+  border: solid 2px black;
+  width: 400px;
+  height: 400px;
 }
