@@ -5,10 +5,9 @@ for (let i = 0; i < 4; i++) {
   divContainer.classList.add("div-container");
   gridContainer.appendChild(divContainer);
 
-  for (let i = 0; i < 4; i++) {
+  for (let j = 0; j < 4; j++) {
     let div = document.createElement("div");
     div.classList.add("div");
-    div.textContent = "Hey";
     divContainer.appendChild(div);
   }
 }
