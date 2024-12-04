@@ -1,0 +1,12 @@
+* {
+  background-color: #272727;
+}
+
+.div-container {
+  display: flex;
+  border: solid;
+}
+
+.div {
+  border: solid;
+}
