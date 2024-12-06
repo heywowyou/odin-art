@@ -22,6 +22,7 @@ function createGrid() {
 const button = document.querySelector("#button");
 
 button.addEventListener("click", () => {
+  gridContainer.innerHTML = "";
   userInput = prompt("Please select grid size");
   Number(userInput);
   if (userInput <= 100) {
