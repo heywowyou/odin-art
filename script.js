@@ -1,4 +1,4 @@
-let gridContainer = document.querySelector("#grid-container");
+const gridContainer = document.querySelector("#grid-container");
 
 for (let i = 0; i < 4; i++) {
   let divContainer = document.createElement("div");
@@ -14,3 +14,9 @@ for (let i = 0; i < 4; i++) {
     });
   }
 }
+
+const button = document.querySelector("#button");
+
+button.addEventListener("click", () => {
+  const userInput = prompt("Please select grid size");
+});
