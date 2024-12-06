@@ -9,5 +9,8 @@ for (let i = 0; i < 4; i++) {
     let div = document.createElement("div");
     div.classList.add("div");
     divContainer.appendChild(div);
+    div.addEventListener("mouseover", () => {
+      div.classList.add("div-colored");
+    });
   }
 }
