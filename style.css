@@ -1,5 +1,5 @@
 * {
-  background-color: #bbbbbb;
+  background-color: #1d1d1d;
 }
 
 #grid-container {
@@ -18,4 +18,8 @@
   border: solid 2px black;
   width: 400px;
   height: 400px;
+}
+
+.div-colored {
+  background-color: rgb(87, 165, 218);
 }
