@@ -43,8 +43,5 @@ body {
   flex: auto;
   border: solid 1px black;
   border-radius: 20%;
-}
-
-.div-colored {
-  background-color: rgb(87, 165, 218);
+  opacity: 0;
 }
